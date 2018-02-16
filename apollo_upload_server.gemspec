@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['engineering@jetruby.com']
 
   spec.summary       = 'Middleware which allows you to upload files using graphql and multipart/form-data.'
-  spec.description   = 'apollo-upload-server implementation for Ruby on Rails as middleware.'
+  spec.description   = 'apollo-upload-server implementation for Rack-based frameworks as middleware.'
   spec.homepage      = 'https://github.com/jetruby/apollo_upload_server-ruby'
   spec.license       = 'MIT'
 
