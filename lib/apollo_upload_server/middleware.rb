@@ -7,7 +7,7 @@ module ApolloUploadServer
     end
 
     def call(env)
-      request = ActionDispatch::Request.new(env)
+      request = Rack::Request.new(env)
       params = request.params
 
       if env['CONTENT_TYPE'].to_s.include?('multipart/form-data') && params['operations'].present? && params['map'].present?
